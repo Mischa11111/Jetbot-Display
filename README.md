@@ -38,7 +38,7 @@ $ mkdir disp
 3. open startup applications, add new Startup Program
 4. Name: ....
    
-   Command: [path/to/python3] [path/to/disp_IP.py] # get path to python3 with $ which python3 and path to script with realpath disp_IP.py, e.g. /usr/bin/python3 /home/jetson/disp/disp_IP.py
+   Command: [path/to/python3] [path/to/disp_IP.py] # get path to python3 with $ which python3 and path to script with realpath disp_IP.py, e.g. /usr/bin/python3 /home/jetson/disp/disp_IP.py (beware of the space in between =))
    
    Comment: ....
 
