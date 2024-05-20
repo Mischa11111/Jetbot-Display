@@ -37,7 +37,9 @@ $ mkdir disp
 2. copy python script disp_IP.py into the folder disp, make it executable
 3. open startup applications, add new Startup Program
 4. Name: ....
-   Command: [path/to/python3] [path/to/disp_IP.py] # get path to python3 with $ which python3 and path to script with realpath disp_IP.py
+   
+   Command: [path/to/python3] [path/to/disp_IP.py] # get path to python3 with $ which python3 and path to script with realpath disp_IP.py, e.g. /usr/bin/python3 /home/jetson/disp/disp_IP.py
+   
    Comment: ....
 
 Now the script should run on startup, and if your jetbot is connected to a Wifi-network, the IP address should be shown on the small screen at the back.
