@@ -4,23 +4,34 @@ address of Wifi via connecting monitor etc.
 
 1. Dependencies:
 
-Update and upgrade the system
+### Update and upgrade the system:
+
 $ sudo apt update
+
 $ sudo apt upgrade -y
 
-Install Python and pip if needed
+
+### Install Python and pip if needed:
+
 $ sudo apt install python3 python3-pip -y
 
-Install required Python libraries
+### Install required Python libraries:
+
 $ sudo pip3 install Adafruit-SSD1306
+
 $ sudo pip3 install Pillow
+
 $ sudo pip install netifaces
 
-Install additional dependencies
+### Install additional dependencies:
+
 $ sudo apt install i2c-tools -y
+
 $ sudo apt install python3-smbus -y
 
-navigate to home folder, create new directory for display scripts e.g. disp
+
+### navigate to home folder, create new directory for display scripts e.g. disp:
+
 $ mkdir disp
 
 2. copy python script disp_IP.py into the folder disp, make it executable
